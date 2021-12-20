@@ -1,0 +1,153 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-container {
+  width: 85%;
+  max-width: 400px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 15px #ccd9ff;
+          box-shadow: 0 10px 15px #ccd9ff;
+}
+
+.card-container .card-img img {
+  display: block;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card-container .description {
+  text-align: center;
+}
+
+.card-container .description h1 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 28px 0 15px 0;
+  color: #1f2f56;
+}
+
+.card-container .description p {
+  line-height: 160%;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0 30px;
+  color: #919cba;
+}
+
+.card-container .payment {
+  background-color: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 13px 0;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.card-container .payment .plan {
+  line-height: 150%;
+  color: #828eb0;
+  font-weight: 700;
+  margin-left: -20px;
+}
+
+.card-container .payment .plan > p:first-child {
+  font-weight: 800;
+  color: #1f2f56;
+}
+
+.card-container .payment .change-button {
+  font-weight: 700;
+}
+
+.card-container .payment .change-button > a {
+  -webkit-transition: .3 ease;
+  transition: .3 ease;
+}
+
+.card-container .payment .change-button > a:hover {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+.card-container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 25px 20px 20px 20px;
+  font-size: 15px;
+}
+
+.card-container .buttons a {
+  width: 100%;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 15px;
+  font-weight: 800;
+  color: #62729d;
+  cursor: default;
+  -webkit-transition: .3 ease;
+  transition: .3 ease;
+}
+
+.card-container .buttons a span:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.card-container .buttons a:first-child {
+  background-color: #3829e0;
+  color: #fff;
+  margin-bottom: 7px;
+  -webkit-box-shadow: 0 6px 15px #bdcdff;
+          box-shadow: 0 6px 15px #bdcdff;
+  -webkit-transition: .3 ease;
+  transition: .3 ease;
+}
+
+.card-container .buttons a:first-child:hover {
+  cursor: pointer;
+  background-color: #766CF1;
+}
+
+@media screen and (min-width: 1000px) {
+  .card-container {
+    max-width: 450px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
