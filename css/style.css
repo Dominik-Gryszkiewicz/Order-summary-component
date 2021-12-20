@@ -43,7 +43,7 @@ main {
 .card-container .description h1 {
   font-size: 22px;
   font-weight: 800;
-  margin: 28px 0 15px 0;
+  margin: 33px 0 20px 0;
   color: #1f2f56;
 }
 
@@ -66,7 +66,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   padding: 13px 0;
-  margin: 20px;
+  margin: 25px 20px;
   border-radius: 10px;
   font-size: 14px;
 }
@@ -116,7 +116,7 @@ main {
 .card-container .buttons a {
   width: 100%;
   text-decoration: none;
-  padding: 15px;
+  padding: 20px;
   border-radius: 15px;
   font-weight: 800;
   color: #62729d;
@@ -133,9 +133,9 @@ main {
 .card-container .buttons a:first-child {
   background-color: #3829e0;
   color: #fff;
-  margin-bottom: 7px;
-  -webkit-box-shadow: 0 6px 15px #bdcdff;
-          box-shadow: 0 6px 15px #bdcdff;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 10px 20px #bdcdff;
+          box-shadow: 0 10px 20px #bdcdff;
   -webkit-transition: .3 ease;
   transition: .3 ease;
 }
@@ -143,11 +143,5 @@ main {
 .card-container .buttons a:first-child:hover {
   cursor: pointer;
   background-color: #766CF1;
-}
-
-@media screen and (min-width: 1000px) {
-  .card-container {
-    max-width: 450px;
-  }
 }
 /*# sourceMappingURL=style.css.map */
