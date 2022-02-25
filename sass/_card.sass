@@ -6,7 +6,7 @@ main
     display: flex
     justify-content: center
     align-items: center
-    height: 100vh
+    min-height: 100vh
     background-color: hsl(225, 100%, 94%)
     font-family: 'Red Hat Display', sans-serif
 .card-container
@@ -85,4 +85,10 @@ main
             transition: .3 ease
         a:first-child:hover
             cursor: pointer
-            background-color: #766CF1     
+            background-color: #766CF1
+
+@media screen and ( max-width: 400px )
+    .card-container
+        .payment
+            .plan
+                margin-left: -15px
